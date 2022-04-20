@@ -1,0 +1,53 @@
+h1, h2{
+    color: rgb(36, 114, 182);
+    padding: 1px;
+    text-decoration: underline;
+}
+
+header, main, footer{
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+header{
+    margin: 0 auto;
+    color: rgb(36, 114, 182);
+    text-shadow: 14px 14px 15px white;
+    
+    
+}
+.headerText{
+    text-decoration: none;
+}
+main{
+    background-color: aliceblue;
+    margin: 0 auto;
+    text-align: left;
+    padding: 2px;
+    max-width: 800px;
+    
+}
+
+ul{
+    display: inline-block;
+    list-style-position: inside;
+    text-align: left;
+    list-style-type: square;
+    
+}
+li{
+    padding: 3px;
+}
+
+footer{
+    background-color: beige;
+    text-align: center;
+    font-size: large;
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 775px;
+}
+
+a:hover{
+    cursor: pointer;
+}
